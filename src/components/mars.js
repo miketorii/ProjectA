@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios'
+import marslogo from '../resources/mars.png';
 
 class Mars extends React.Component {
 
@@ -35,6 +36,7 @@ class Mars extends React.Component {
   render() {
     return (
       <div>
+	  <img src={marslogo} />
           <h1>val777 = {this.state.val777}</h1>
           <h1>Name = {this.state.str777}</h1>
           <button onClick={this.changevalue.bind(this)}>Change</button>
