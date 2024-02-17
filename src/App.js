@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import Header from './components/header';
 import Footer from './components/footer';
-//import Device from './components/device';
+import Mars from './components/mars';
 
 function App() {
 
@@ -35,6 +35,7 @@ function App() {
       <Header />
         <p>Hello Mike 999</p>
         <p>{data}</p>
+      <Mars />
       <Footer />
     </div>
   );
