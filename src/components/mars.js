@@ -35,7 +35,8 @@ class Mars extends React.Component {
 
   render() {
     return (
-      <div>
+	<div>
+	  <img src={marslogo} />
           <h1>val777 = {this.state.val777}</h1>
           <h1>Name = {this.state.str777}</h1>
           <button onClick={this.changevalue.bind(this)}>Change</button>
