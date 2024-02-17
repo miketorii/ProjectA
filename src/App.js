@@ -8,7 +8,12 @@ function App() {
   const [data, setResponse] = useState([]);
 
   useEffect( () => {
-    axios.get('/api/GetDevices')
+//    axios.get('/api/GetDevices')
+    axios({
+	method: 'get',
+	url: '/api/GetDevices',
+	headers: {'X-Mike-Sec' : '99999'}
+    })
     .then( res => {
       setResponse(res.data);
       console.log(res);

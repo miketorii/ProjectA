@@ -7,7 +7,14 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 def GetDevices(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
-    return func.HttpResponse(f"Hello from Azure Function GetDevices")
+    headers = req.headers
+    sec = headers.get('X-Mike-Sec')
+
+    if sec == '99999':
+        return func.HttpResponse(f"Hello from Azure Function GetDevices : "+sec)
+    else:
+        return func.HttpResponse("Authentication header not found",status_code=401)
+        
 '''
     name = req.params.get('name')
     if not name:
