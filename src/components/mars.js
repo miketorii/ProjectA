@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios'
-import marslogo from '../resources/mars.png';
+import marslogo from '../resources/mars.jpg';
 
 class Mars extends React.Component {
 
