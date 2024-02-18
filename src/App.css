@@ -14,6 +14,10 @@
   color: white;
 }
 
+.App-logo img {
+    width: 100%;
+}
+
 .App-headerfooter {
   background-color: #696969;
   align-items: center;
