@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.App-header {
+.App-header1 {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -14,12 +14,37 @@
   color: white;
 }
 
+.App-header {
+  background-color: #282828;
+  min-height: 10vh;
+  align-items: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
 .App-logo img {
     width: 100%;
 }
 
-.App-headerfooter {
-  background-color: #696969;
+.App-Contents {
+  background-color: #282828;
+  min-height: 10vh;
+  align-items: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
+.App-News {
+  background-color: #282828;
+  min-height: 10vh;
+  align-items: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #282828;
+  min-height: 30vh;
   align-items: center;
   font-size: calc(1px + 2vmin);
   color: white;

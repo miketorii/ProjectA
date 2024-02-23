@@ -20,7 +20,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className='App-headerfooter'>
+      <div className='App-header'>
           <h3>hval = {this.state.hval001}, hstr = {this.state.hstr001}
           <button onClick={this.changevalue.bind(this)}>Change</button></h3>
       </div>

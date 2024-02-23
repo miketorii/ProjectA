@@ -20,7 +20,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className='App-headerfooter'>
+      <div className='App-footer'>
           <h3>fval001 = {this.state.fval001}, fstr001 = {this.state.fstr001}
           <button onClick={this.changevalue.bind(this)}>Change</button></h3>
       </div>
