@@ -24,7 +24,7 @@ class Header extends React.Component {
     return (
       <div>
 	  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left App-w3-header" id="mySidebar">
-	      <a href={null} onClick={this.w3_close.bind(this)} class="w3-bar-item w3-button">Close Menu</a>
+	      <a href="#" onClick={this.w3_close.bind(this)} class="w3-bar-item w3-button">Close Menu</a>
 	      <Link to="/" onClick={this.w3_close.bind(this)} class="w3-bar-item w3-button">Home</Link>
 	      <Link to="/marsphotos" onClick={this.w3_close.bind(this)} class="w3-bar-item w3-button">Photos</Link>
 	      <Link to="/marsnews" onClick={this.w3_close.bind(this)} class="w3-bar-item w3-button">News</Link>
