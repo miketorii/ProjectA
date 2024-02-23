@@ -22,21 +22,32 @@
   color: white;
 }
 
+.App-w3-header {
+    display:none;
+    z-index:2;
+    width:40%;
+    min-width:300px
+}
+
 .App-logo img {
     width: 100%;
 }
 
-.App-Contents {
+.App-Photos {
   background-color: #282828;
-  min-height: 10vh;
+  min-height: 50vh;
   align-items: center;
   font-size: calc(1px + 2vmin);
   color: white;
 }
 
+.App-w3-img {
+    width: 100%;
+}
+
 .App-News {
   background-color: #282828;
-  min-height: 10vh;
+  min-height: 50vh;
   align-items: center;
   font-size: calc(1px + 2vmin);
   color: white;

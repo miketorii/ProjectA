@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 class Footer extends React.Component {
 
   constructor(props) {
@@ -20,9 +22,19 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className='App-footer'>
-          <h3>fval001 = {this.state.fval001}, fstr001 = {this.state.fstr001}
-          <button onClick={this.changevalue.bind(this)}>Change</button></h3>
+      <div>
+	  <footer class="w3-center w3-black w3-padding-64 w3-hover-opacity-off">
+	      <Link to="/" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Back to Home</Link>
+	      <div class="w3-xlarge w3-section">
+	      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+	      <i class="fa fa-instagram w3-hover-opacity"></i>
+	      <i class="fa fa-snapchat w3-hover-opacity"></i>
+              <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+	      <i class="fa fa-twitter w3-hover-opacity"></i>
+	      <i class="fa fa-linkedin w3-hover-opacity"></i>
+	      </div>
+	      <p>Powered by Mike Inc.</p>
+	  </footer>
       </div>
     );
   }
