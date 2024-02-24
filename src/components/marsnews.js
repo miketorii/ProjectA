@@ -6,7 +6,7 @@ class MarsNews extends React.Component {
 
   render() {
     return (
-	<div class='App-News'>
+	<div class='App-News App-clearfix'>
 
 	    <div class="w3-col m6 w3-center w3-padding-large">
 	    <p><b><i class="fa fa-user w3-margin-right"></i>Rocks</b></p>
