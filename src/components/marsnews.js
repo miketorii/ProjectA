@@ -11,7 +11,7 @@ class MarsNews extends React.Component {
 	    <div class="w3-col m6 w3-center w3-padding-large">
 	    <p><b><i class="fa fa-user w3-margin-right"></i>Rocks</b></p>
 
-	    <img src={photorock} class="w3-round w3-image w3-hover-opacity-off" alt="rock" width="400" height="300" />
+	    <img src={photorock} class="w3-round w3-image w3-hover-opacity-off App-News-img" alt="rock" />
 	    </div>
 
 	    <div class="w3-col m6 w3-hide-small w3-padding-large">

@@ -58,6 +58,12 @@
   color: white;
 }
 
+.App-News-img {
+    width: 50%;
+    max-width: 400px;
+    max-height: 300px;
+}
+
 .App-NewsGray {
   background-color: #282828;
   min-height: 100vh;
